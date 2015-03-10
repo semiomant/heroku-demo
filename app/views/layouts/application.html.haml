@@ -1,0 +1,10 @@
+!!! html
+%html{:lang=>"en"}
+    %head
+    %title ECMAScript examples
+    = stylesheet_link_tag "application"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+
+%body
+    = yield
